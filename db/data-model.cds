@@ -21,6 +21,7 @@ entity DataSet:cuid {
 key Plant : String(50);
 equdata :String(50);
 plantname :String(50);
+//data
 }
 annotate my.demoapplication.DataSet with {
     Plant                 @(

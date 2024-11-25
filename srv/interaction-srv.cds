@@ -4,7 +4,7 @@ using {my.demoapplication as my} from '../db/data-model';
 service checklistServices {
     entity I_Plant             as projection on my.I_Plant;
      entity Equipment           as projection on my.Equipment;
-    // entity plantdata     as projection on my.plantdata;
+    //not requ  entity plantdata     as projection on my.plantdata;
     @odata.draft.enabled
      entity DataSet as projection on my.DataSet;
 }

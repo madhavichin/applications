@@ -27,7 +27,7 @@ module.exports = cds.service.impl(async function (srv) {
   });
 srv.on('CREATE', 'DataSet', async req => {
   const { Plant, equdata } = req.data;
-  //added
+  //added below code 
   const result = await INSERT.into(this.entities.DataSet).entries({ Plant, equdata });
   return result;
 });

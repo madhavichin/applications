@@ -41,5 +41,9 @@ annotate service.DataSet with @(
             Value : plantname,
         },
     ],
+    UI.SelectionFields : [
+        Plant,
+        equdata,
+    ],
 );
 
