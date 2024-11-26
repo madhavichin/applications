@@ -94,7 +94,11 @@
             "forwardAuthToken": true
           }
         }
+      },
+      "auth": {
+        "kind": "basic"
       }
+     
     }
   },
   "sapux": [
